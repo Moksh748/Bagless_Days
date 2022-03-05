@@ -1,0 +1,62 @@
+body{background-color:rgb(96, 235, 96);
+text-align: center;}
+h1{
+    color:black;
+    font-size: 25px;
+    letter-spacing: 5px;
+    font-weight:800px;
+    font-family: sans-serif;
+    animation-name:fade;
+    animation-duration: 5s; 
+    animation-iteration-count: infinite;
+}
+h2{
+    color:black;
+    font-size: 20px;
+    letter-spacing: 5px;
+    font-weight:800px;
+    font-family: sans-serif;
+    animation-name:fade;
+    animation-duration: 5s; 
+    animation-iteration-count: infinite;
+}
+h3{
+    color:black;
+    font-size: 25px;
+    letter-spacing: 5px;
+    font-weight:800px;
+    font-family: sans-serif;
+    animation-name:fade;
+    animation-duration: 5s; 
+    animation-iteration-count: infinite;
+}
+.Title{
+    font-size:30px;
+    color:blue;
+}
+#title{
+    color:rgb(165, 32, 32);
+    font: size 35px;
+}
+a{ 
+    font-size: 20px;
+    color: purple;
+    width: 100px;
+    height: 25px;
+    transition: all 5s ease;
+}
+a:hover{
+    padding:15px;
+    color: red;
+    background:black;
+}
+@keyframes fade {
+    from{
+        opacity: 0;
+        color: white;
+    }
+    to{
+        color:black;
+        opacity: 1;
+    }
+}
